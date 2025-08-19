@@ -1,0 +1,36 @@
+{
+  "greetings": [
+    "Hello! How can I help you today?",
+    "Hi there! What would you like to chat about?",
+    "Hey! I'm your friendly chatbot."
+  ],
+  "farewells": [
+    "Goodbye! Have a great day!",
+    "See you later!",
+    "Bye! Come back soon."
+  ],
+  "thanks": [
+    "You're welcome!",
+    "No problem!",
+    "Anytime!"
+  ],
+  "customer_service": [
+    "Sure, I can help with that. Can you provide more details?",
+    "I understand. Let's resolve this together.",
+    "Thank you for reaching out! Our support team will assist you.",
+    "Could you please provide your order number or account details?",
+    "We are here to help! Please describe the issue."
+  ],
+  "casual_talk": [
+    "That's interesting! Tell me more.",
+    "I see. How are you feeling today?",
+    "Oh really? Can you explain that further?",
+    "Cool! What else is happening?",
+    "Haha, that's funny!"
+  ],
+  "default": [
+    "I'm not sure I understand, could you rephrase?",
+    "Interesting, tell me more!",
+    "I see. Can you explain that a bit?"
+  ]
+}
