@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": 1,
+    "message": "Hello, chatbot!",
+    "reply": "Hello! How can I help you today?",
+    "timestamp": "2025-08-19T12:00:00.000Z"
+  },
+  {
+    "user_id": 1,
+    "message": "I need help with my order.",
+    "reply": "Sure! Can you please provide your order number?",
+    "timestamp": "2025-08-19T12:01:15.000Z"
+  },
+  {
+    "user_id": 2,
+    "message": "Hi, what's your name?",
+    "reply": "I'm your friendly support chatbot!",
+    "timestamp": "2025-08-19T12:05:10.000Z"
+  }
+]
