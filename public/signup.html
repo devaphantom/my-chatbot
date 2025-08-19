@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Signup</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 50px; }
+    input { display:block; margin:10px 0; padding:10px; width: 300px; }
+    button { padding:10px 20px; }
+    p { color:red; }
+  </style>
+</head>
+<body>
+  <h2>Signup</h2>
+  <input id="username" placeholder="Username">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="signup()">Signup</button>
+  <p id="msg"></p>
+
+  <script>
+    async function signup() {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      const res = await fetch('/api/signup', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ username, password })
+      });
+      const data = await res.json();
+      document.getElementById('msg').textContent = data.error || data.message;
+      if(data.success) setTimeout(()=> window.location.href='/login.html', 1500);
+    }
+  </script>
+</body>
+</html>
